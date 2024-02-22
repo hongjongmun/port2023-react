@@ -38,7 +38,11 @@ const Header = () => {
                         <a href="/">portfolio<em>react</em></a>
                     </h1>
                 </div>
-                <nav className={`header__nav ${show ? "show" : ""}`} role="navigation" aria-label="메인 메뉴">
+                <nav 
+                    className={`header__nav ${show ? "show" : ""}`} 
+                    role="navigation"
+                    aria-label="메인 메뉴"
+                >
                     <ul>
                         {headerNav.map((nav, key) => (
                             <li key={key}>
