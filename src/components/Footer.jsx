@@ -7,7 +7,7 @@ const Footer = () => {
         <footer id="footer" role="contentinfo">
             <div className="footer__inner">
                 <div className="footer__text">
-                    <span>webstoryboy</span>
+                    <span>hongjongmun</span>
                     <span>© webs</span>
                 </div>
                 <div className="footer__info">
@@ -30,7 +30,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footer__right">
-                    © 2023 webstoryboy<br />
+                    © 2023 hongjongmun<br />
                     이 사이트는 리액트를 이용하여 제작하였습니다.
                 </div>
             </div>
